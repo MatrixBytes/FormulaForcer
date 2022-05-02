@@ -2,14 +2,17 @@ import itertools
 import string    
 import time     
 
+# variables
 data = {
     'h': 5,
     'g': 8,
     'p': 10,
 }
 
+# result
 result = 20
 
+# tasks for an found formular
 tasks = [[{'h': 3, 'g': 4, 'p': 10}, 6]]
 
 def force(data, result, tasks, todo = 1):
